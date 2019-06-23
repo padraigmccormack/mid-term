@@ -1,9 +1,9 @@
 body {
     text-align: center;
     font-family: "Myriad Pro", sans-serif;
-    width: 950px;
     color: white;
     font-weight: 400;
+    margin: 0;
 }
 
 .clearfix {
@@ -11,34 +11,36 @@ body {
 }
 
 .container_1 nav{
-    float: right:
+    line-height: 22px;
+    color: black;
+    background-color:white;
+    margin-left: 200px;
+    margin-right: 200px;
 }
-
 
 h1 {
     float: left;
-    color: black;
-    line-height: 80px;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
-    margin: 10px, 10px, 10px;
-}
-
-nav {
-    line-height: 80px;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 nav ul li a {
     float: right;
-    background-color:white;
-    padding: 15px;
-    font-size: 18px;
+    float: reverse;
+    font-size: 15px;
+    font-weight: 400;
     list-style-type: none;
-    color: black;
+    margin-left: 80px;
+    margin-top: 5px;
+    text-transform: uppercase;
 }
+
 a {
     text-decoration: none;
+    color: black;
     display: block;
     text-align: center;
     border-radius: 30px;   
@@ -54,33 +56,51 @@ li {
 
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
-    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 400px;
 }
 
 p {
-    margin: 100px;
+    font-size: 18px;
+    margin: 10px 320px;
     align-content: center;
+    line-height: 24px;
 }
 
 
 #mission {
     background-image: url(../images/main_mountains.jpg);
     background-repeat: no-repeat;
-    height: 600px;
     color: white;
     clear: both;
-    align-content: center;
+    padding-top: 350px;
+    padding-bottom: 100px;
+}
+
+#mission .fas {
+    font-size: 10px;
+    line-height: 10px;
+    vertical-align: 6px;
 }
 
 #about {
     color: black;
+    padding: 50px 0 50px 0;
 }
 
 #about h2 {
@@ -90,6 +110,7 @@ p {
 #team {
     background-color: rgb(14, 191, 221);
     height: 500px;
+    padding: 40px 140px 40px 140px;
 }
 
 #team img {
@@ -99,6 +120,13 @@ p {
 
 figure {
     float: left;
+    width: 250px;
+    margin: 5 60px;
+}
+
+figcaption p {
+    font-style: italic;
+    margin: 0 0;
 }
 
 #googleMap {
@@ -106,31 +134,59 @@ figure {
     height:400px;
 }
 
-
-.footer {
+#footer {
     background-color: rgb(69, 73, 77);
+    height: 120px;
     clear: both;
-    padding: 50px;
-
+    color: white;
+    padding: 10px 20px 10px 20px;
 }
 
-#bottom {
+.left li a{
+    float: left;
+    color: white;
+    margin-left: 20px;
+}
+
+.right li a{
+    color: white;
+}
+
+.fa-stack ul li a{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+.far {
+    font-size: 40px;
+}
+
+#footer .fab {
+    font-size: 18px;
+}
+
+#footer .fas {
+    font-size: 18px;
+}
+
+.bottom_line p {
+    float: right;
     font-size: 10px;
+    margin: 10px 0 0 20px;
+    color: white;
 }
 
-#footer li a {
-    width: 30px;
+.footer li a {
     text-transform: uppercase;
 
 }
 
-.fas fa-star {
+span.fa-stack {
+    color: white;
 
 }
 
-as fa-envelope {
-    
-}
 
 
 /**
