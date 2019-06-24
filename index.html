@@ -5,25 +5,25 @@
 <head>
     <title>Homeland Design</title>
     <link rel="stylesheet" href="css/master.css">
-    <link rel="star" href="https://fontawesome.com/icons?d=gallery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body class="clearfix">
 <section class="container_1">
     <nav>
-            <h1><i class="fas fa-star"></i>Homeland Design<i class="fas fa-star"></i></h1>
+        <h1><a href="url">Homeland Design</a></h1>
         <ul>
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Team</a></li>
-            <li><a>Sign In</a></li>
+            <li><a href="url">Sign In</a></li>
+            <li><a href="url">Team</a></li>
+            <li><a href="url">About</a></li>
+            <li><a href="url">Home</a></li>
         </ul>
     </nav>
 </section>
 
 <section id="mission">
-    <div class="align">
-    <h2>Our Mission</h2>
+    <h2 class="mission_head"><i class="fas fa-star"></i> Our Mission <i class="fas fa-star"></i></h2>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
     </div>
@@ -39,7 +39,7 @@
     <div>
         <h2>Team</h2>
     </div>
-    <div class="center">
+    <div>
         <figure>
             <img src="images/1_saul.jpg">
             <figcaption>
@@ -71,44 +71,52 @@
 </section>
 
 
-<section id="googleMap"></div>
-        <script>
-        function myMap() {
-        var mapProp= {
-          center:new google.maps.LatLng(51.508742,-0.120850),
-          zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
-        
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<section id="googleMap">
+
+    <script>
+    function myMap() {
+    var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
 </section>
 
-<section class="footer">
-    <div>
+<section id="footer">
+    <div class="left">
         <li><a>About</a></li>
         <li><a>FAQ</a></li>
         <li><a>Work With Us</a></li>
-        <li><a></a></li>
     </div>
-        <span class="fa-stack">   
-            <li><a><i class="far fa-circle"></i></i></a>
-            <li><a><i class="fas fa-envelope"></i></a>
+    <div class="right">
+        <span class="fa-stack"> 
+            <ul> 
+            <li><a href="url"><i class="far fa-circle"></i></a></li>
+            <li><a href="url"><i class="fas fa-envelope"></i></a></li>
+            </ul>
         </span>
         <span class="fa-stack">
-            <li><a><i class="far fa-circle"></i></i></a>
-            <li><a><i class="fab fa-facebook-f"></i></i></a>
+            <ul>
+            <li><a href="url"><i class="far fa-circle"></i></a></li>
+            <li><a href="url"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
         </span>
         <span class="fa-stack">
-            <li><a><i class="far fa-circle"></i></i></a>
-            <li><a><i class="fab fa-twitter"></i></i></a>
+            <ul>
+            <li><a href="url"><i class="far fa-circle"></i></a></li>
+            <li><a href="url"><i class="fab fa-twitter"></i></a></li>
+            </ul>
         </span>
-    <div>
-
     </div>
-    <div class="bottom">
-        <p>Privacy Policy | Terms and Conditions | © Homeland Design 2018</p>
+    <div class="bottom_line">
+        <p>Privacy Policy</p>
+        <p>Terms and Conditions</p>
+        <p>© Homeland Design 2018</p>
     </div>
 </section>
 
