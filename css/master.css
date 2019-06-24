@@ -1,7 +1,6 @@
 body {
     text-align: center;
     font-family: "Myriad Pro", sans-serif;
-    width: 950px;
     color: white;
     font-weight: 400;
 }
@@ -18,11 +17,10 @@ body {
 h1 {
     float: left;
     color: black;
-    line-height: 80px;
+    line-height: 20px;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
-    margin: 10px, 10px, 10px;
 }
 
 nav {
@@ -76,7 +74,12 @@ p {
     height: 600px;
     color: white;
     clear: both;
-    align-content: center;
+}
+
+.align {
+    margin-top: 80%;
+    vertical-align: bottom;
+    color: pink;
 }
 
 #about {
